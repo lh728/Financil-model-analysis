@@ -1,2 +1,3 @@
 # financial-model-analysis
+Carry out herd effect analysis on the time series of oil giant companies stocks according to CSAD and time-varying regression. The macroeconomic factor model is constructed by taking the interest rate spread between Vanguard Group's long-term government bonds and long-term corporate bonds, and the interest rate of Vanguard's short-term government bonds as factors. At the same time, a statistical factor model for the comparison of cryptocurrencies and traditional assets is established
 对石油巨头公司的股票的时间序列根据CSAD和时变回归进行羊群效应分析，以先锋集团长期国债与长期企业债利差和先锋短期国债interest rate作为因子进行的宏观经济因子模型建立和加密货币与传统资产对比的统计因子模型建立
