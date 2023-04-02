@@ -6,7 +6,7 @@ df2 = read.csv("Data3.csv", header = TRUE)
 sum(is.na(df2))
 df2$Date = as.POSIXct(df2$Date,format="%Y/%m/%d", tz = "") # converting the first column into date format
 new_df <- merge(df,df2,by = "Date")
-
+ 
 del <- which(new_df$SHEL == 'null')
 new_df <- new_df[-del,] # remove 2022-1-31 to 2022-2-10 because new_df has null values
 new_df$CVX<-as.numeric(new_df$CVX)
